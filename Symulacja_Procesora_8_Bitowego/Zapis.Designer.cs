@@ -38,59 +38,66 @@
             // wynik
             // 
             this.wynik.AutoSize = true;
+            this.wynik.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.wynik.ForeColor = System.Drawing.Color.Lime;
-            this.wynik.Location = new System.Drawing.Point(276, 220);
+            this.wynik.Location = new System.Drawing.Point(12, 143);
             this.wynik.Name = "wynik";
-            this.wynik.Size = new System.Drawing.Size(80, 20);
+            this.wynik.Size = new System.Drawing.Size(138, 27);
             this.wynik.TabIndex = 4;
             this.wynik.Text = "konwersja";
             this.wynik.Click += new System.EventHandler(this.Label1_Click);
             // 
             // input
             // 
-            this.input.Location = new System.Drawing.Point(85, 309);
+            this.input.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.input.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.input.Location = new System.Drawing.Point(17, 45);
             this.input.Name = "input";
-            this.input.Size = new System.Drawing.Size(100, 26);
+            this.input.Size = new System.Drawing.Size(151, 35);
             this.input.TabIndex = 5;
             this.input.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
             // 
             // button1
             // 
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(280, 289);
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.ForeColor = System.Drawing.Color.Lime;
+            this.button1.Location = new System.Drawing.Point(188, 32);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 46);
+            this.button1.Size = new System.Drawing.Size(299, 59);
             this.button1.TabIndex = 6;
-            this.button1.Text = "push";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "zamień na dwójkowy";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // test
             // 
             this.test.AutoSize = true;
+            this.test.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.test.ForeColor = System.Drawing.Color.Lime;
-            this.test.Location = new System.Drawing.Point(276, 170);
+            this.test.Location = new System.Drawing.Point(198, 143);
             this.test.Name = "test";
-            this.test.Size = new System.Drawing.Size(126, 20);
+            this.test.Size = new System.Drawing.Size(250, 27);
             this.test.TabIndex = 7;
             this.test.Text = "zapis w rejestrze";
             // 
             // test2
             // 
             this.test2.AutoSize = true;
+            this.test2.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.test2.ForeColor = System.Drawing.Color.Lime;
-            this.test2.Location = new System.Drawing.Point(99, 170);
+            this.test2.Location = new System.Drawing.Point(198, 190);
             this.test2.Name = "test2";
-            this.test2.Size = new System.Drawing.Size(61, 20);
+            this.test2.Size = new System.Drawing.Size(236, 27);
             this.test2.TabIndex = 8;
-            this.test2.Text = "numer i";
+            this.test2.Text = "numer rejestru i";
             // 
             // Zapis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(527, 459);
+            this.ClientSize = new System.Drawing.Size(514, 252);
             this.Controls.Add(this.test2);
             this.Controls.Add(this.test);
             this.Controls.Add(this.button1);
